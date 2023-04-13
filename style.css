@@ -48,3 +48,24 @@ a {
   text-decoration: none;
   color: hsl(218, 44%, 22%);
 }
+
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 30%;
+  }
+
+  h2 {
+    font-size: 2rem;
+    text-align: center;
+    padding: 0 .25em;
+  }
+
+  .text p {
+    font-size: 1.3rem;
+  }
+
+  .attribution {
+    font-size: 1.125rem;
+  }
+}
